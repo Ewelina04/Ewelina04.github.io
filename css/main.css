@@ -16,15 +16,6 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-.logocv {
-    float:right;
-}
-
-.headingcv {
-    margin-left: 15px;
-    display: block;
-    float:left;
-}
 
 a {
     text-decoration: none;
@@ -80,8 +71,18 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    height: 30%;
+    width: 60%;
+    height: 50%;
+}
+
+.logocv {
+    float:right;
+}
+
+.headingcv {
+    margin-left: 15px;
+    display: block;
+    float:left;
 }
 
 div#adds > ins{
