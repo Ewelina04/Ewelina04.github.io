@@ -16,6 +16,16 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+.logocv {
+    float:right;
+}
+
+.headingcv {
+    margin-left: 15px;
+    display: block;
+    float:left;
+}
+
 a {
     text-decoration: none;
     color: #999;
