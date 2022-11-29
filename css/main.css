@@ -93,9 +93,9 @@ img {
 .profilephoto_wide {
     display: block;
     float:right;
-    width: 100%;
-    height: 100%;
-    margin-left:100px;"    
+    width: 70%;
+    height: 70%;
+    margin-left:80px;"    
 }
 
 div#adds > ins{
