@@ -90,6 +90,13 @@ img {
     float:left;
 }
 
+.profilephoto_wide {
+    display: block;
+    float:left;
+    width: 100%;
+    height: 100%;
+}
+
 div#adds > ins{
     margin-top: 5px;
 }
