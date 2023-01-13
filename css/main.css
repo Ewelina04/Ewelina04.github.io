@@ -95,15 +95,15 @@ img {
     float:right;
     width: 60%;
     height: 60%;
-    margin: 0 0 0 15px;"    
+    margin: 0 0 0 15px;    
 }
 
 .profilephoto_small {
-    display: block;
+    display: -webkit-box;
     float: right;
-    width: 15%;
-    height: 15%;
-    margin: 0 0 0 5px;"    
+    width: 5%;
+    height: 5%;
+    margin-left: auto;
 }
 
 div#adds > ins{
