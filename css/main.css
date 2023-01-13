@@ -101,8 +101,8 @@ img {
 .profilephoto_small {
     display: -webkit-box;
     float: right;
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     margin-left: auto;
 }
 
