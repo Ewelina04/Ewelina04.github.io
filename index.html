@@ -19,30 +19,20 @@
 				bottom:auto;
 				margin:5px 0
 			    }
-
-			   .row {
-			     display: grid;
-			     grid-template-columns: repeat(3, 1fr);
-			     gap: 10px;
-			     grid-auto-rows: minmax(100px, auto);
-			   }
 			 
 			    /* Set width length for the left, right and middle columns */
 			    .left {
 			    width: 36%;
 			    float: left;
-			    grid-column: 1;
-  			    grid-row: 1;
+			    position: absolute;
 			    }
 			    .mid {
 			    width: 10%;
-			    grid-column: 1;
-  			    grid-row: 1;				    
+			    position: absolute;				    
 			    }			    
 			    .right {
 			    width: 54%;
-			    grid-column: 1;
-  			    grid-row: 1;				    
+			    position: absolute;				    
 			    }
 			
 			    .row:after {
