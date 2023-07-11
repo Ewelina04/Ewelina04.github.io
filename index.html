@@ -17,33 +17,21 @@
 				left:auto;
 				top:auto;
 				bottom:auto;
-				margin:5px 0
+				margin:5px 0;
+				padding: 10px;
 			    }
-			@media only screen and (max-width: 960px) {
+			@media screen and (max-width: 750px) {
+					  .column {
+					    width: 100%;
+					  }
+					}
+			@media only screen and (max-width: 750px) {
 					  .col-xs-12 {
 					    display: flex;
 					    flex-direction: column;
 					  }
 					}
-			
-			@media only screen and (max-width: 960px) {
-					  .left {
-					    max-width:100% !important;
-					    height: auto;						  
-					  }
-					}
-			@media only screen and (max-width: 960px) {
-					  .mid {
-					    max-width:100% !important;
-					    height: auto;						  
-					  }
-					}
-			@media only screen and (max-width: 960px) {
-					  .right {
-					    max-width:100% !important;
-					    height: auto;						  
-					  }
-					}			
+						
 			    /* Set width length for the left, right and middle columns */
 			    .left {
 			    width: 36%;
